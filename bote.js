@@ -41,4 +41,4 @@ client.on('message', msg => {
 
 
 
-client.login(NDYxNDA1NTIxODk5OTQ2MDAw.DhW5PA.R4ZkUGy_apQKUt5YW5JhncjXi3s)
+client.login(process.env.BOT_TOKEN)
