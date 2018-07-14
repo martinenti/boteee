@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
- const prefix = "$";
+ const prefix = "+";
 client.on('ready', () => { // Leaked by [ @! Abdulrhman#1001, @! KiNg66S.❤#8047 ]
     console.log('I am ready!');
 });
@@ -21,7 +21,7 @@ var fs = require('fs');
 
 client.on('ready', function(){ // Leaked by [ @! Abdulrhman#1001, @! KiNg66S.❤#8047 ]
     var ms = 30000 ;
-    var setGame = [`$help | $inv `,` S Bot By S TeaM !`];
+    var setGame = [`+help | +inv `,` Heroes bot by martin !`];
     var i = -1;
     var j = 0;
     setInterval(function (){
