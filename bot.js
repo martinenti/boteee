@@ -50,7 +50,7 @@ client.on('ready', function(){ // Leaked by [ @! Abdulrhman#1001, @! KiNg66S.❤
 //////////////////////////////////////////////iyvu
 
 client.on('message', ra3d => { // Leaked by [ @! Abdulrhman#1001, @! KiNg66S.❤#8047 ]
-            var prefix = "r";
+            var prefix = "+";
   if (ra3d.content ===  prefix + 'cc'){
               if (!ra3d.member.hasPermission('MANAGE_ROLES')) return ra3d.channel.sendMessage('`**⚠ | `[MANAGE_ROLES]` لا يوجد لديك صلاحية**');
               ra3d.channel.send("**✅ | يتم عمل الالوان**");
@@ -66,7 +66,7 @@ client.on('message', ra3d => { // Leaked by [ @! Abdulrhman#1001, @! KiNg66S.❤
 
 
   client.on('message' , ReBeL => { // Leaked by [ @! Abdulrhman#1001, @! KiNg66S.❤#8047 ]
-var prefix = "-";
+var prefix = "+";
 if(ReBeL.author.bot) return;
 if(ReBeL.channel.type == 'dm') return;
 if(ReBeL.content.startsWith(prefix + "dc")) {
@@ -79,7 +79,7 @@ ReBeL.guild.roles.filter(rebel => isNaN(rebel)).forEach(codes => codes.delete())
 
 
 client.on('message', message => { // Leaked by [ @! Abdulrhman#1001, @! KiNg66S.❤#8047 ]
-    if (message.content.startsWith("$tr")) {
+    if (message.content.startsWith("+tr")) {
 
         const translate = require('google-translate-api');
 
@@ -280,7 +280,7 @@ var v1 = new Discord.RichEmbed()
   v1.setTimestamp(new Date())
   v1.setColor("#6a109d")
   v1.setDescription('***__ انتظر .. جاري الحصول علي البيانات __***')
-  v1.setFooter("# | S TeaM |")
+  v1.setFooter("# | Heroes |")
 var heroo = new Discord.RichEmbed()
 .setColor('#6a109d')
 .setTimestamp(new Date())
@@ -296,7 +296,7 @@ var heroo = new Discord.RichEmbed()
 .addField("**ايدي البوت **:","**[ "+client.user.id+" ]**",true)
 .addField("**الحجم المستخدم** :",`**[ ${(process.memoryUsage().rss / 1048576).toFixed()}MB ]**`,true)
 .addField("**موعد الاقلاع** :",`**[** **Days:** \`${days}\` **Hours:** \`${hours}\` **Minutes:** \`${minutes}\` **Seconds:** \`${seconds}\` **]**`,true)
-.setFooter("S TeaM  |");
+.setFooter("Heroes  |");
   message.channel.send({embed:v1}).then(m => {
       setTimeout(() => {
          m.edit({embed:heroo});
@@ -452,7 +452,7 @@ var mentionned = message.mentions.members.first();
 
 client.on('message', message => { // Leaked by [ @! Abdulrhman#1001, @! KiNg66S.❤#8047 ]
     if (message.author.bot) return;
-    if(message.content == '$mb') {
+    if(message.content == '+mb') {
     const embed = new Discord.RichEmbed()
     .addField(`حالة الأعضاء 🔋`,'-',   true)
 .addField(`💚 اونلاين :   ${message.guild.members.filter(m=>m.presence.status == 'online').size}`,'-',   true)
@@ -772,7 +772,7 @@ coll.first().delete()
 
 
 	client.on('message', async msg => { // Leaked by [ @! Abdulrhman#1001, @! KiNg66S.❤#8047 ]
-	var prefix = "$";
+	var prefix = "+";
 	var user = msg.author;
 		if (msg.content === (prefix +'help')) {
 		if(!msg.channel.guild) return msg.channel.send('**هذا الأمر فقط للسيرفرات**').then(m => m.delete(5000));
@@ -833,7 +833,7 @@ vv.on("collect", r => {
  .setThumbnail(msg.author.avatarURL)
  .setTitle(`Welcome To ${msg.guild.name}`)
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
-  .setURL('https://discordapp.com/oauth2/authorize/?permissions=268443710&scope=bot&client_id=465885551329804288')
+  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=461405521899946000&permissions=8&scope=bot')
 .setDescription(`**' S Bot Discord.\n$help - لرؤية الأوامر :comet: \n$inv - لدعوة البوت :wine_glass: \n معلومات عن البوت :thinking: \n بوت ديسكورت متكامل :soccer: :microphone: :earth_americas: \nيوجد داخل البوت خاصية منع التهكير مجانا وبسهوله تامة :scream: \nصيانة دورية :stopwatch: :wrench: \n 24 ساعة :point_up:
  \nاضافات يومية :link: \n الدعم الفني للمساعدةة : https://discord.gg/VbnKYRx  :rose:  \n وشكرا لكم :lizard: **`)
 
