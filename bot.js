@@ -361,8 +361,8 @@ client.on('guildCreate', guild => { // Leaked by [ @! Abdulrhman#1001, @! KiNg66
 var message = "zg";
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
-     .setTitle('S Bot Link Click Here .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=465885551329804288&permissions=8&scope=bot')
+     .setTitle('Heroes Bot Link Click Here .!')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=461405521899946000&permissions=8&scope=bot')
   .setDescription(`**
   New Server Add S Bot ✅
 اسم السيرفر: ${guild.name}
@@ -374,8 +374,8 @@ client.on('guildDelete', guild => { // Leaked by [ @! Abdulrhman#1001, @! KiNg66
 var message = "zg";
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
-     .setTitle('S Bot Link Click Here .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=465885551329804288&permissions=8&scope=bot')
+     .setTitle('Heroes Bot Link Click Here .!')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=461405521899946000&permissions=8&scope=bot')
   .setDescription(`**
   Server Kicked S Bot :cry:
 اسم السيرفر: ${guild.name}
@@ -591,7 +591,7 @@ client.on('message', function(message) { // Leaked by [ @! Abdulrhman#1001, @! K
           var mmmmEmbed = new Discord.RichEmbed()
           .setAuthor(client.user.username)
           .setTitle('-  اضغط هنا !.')
-          .setURL(`https://discordapp.com/oauth2/authorize/?permissions=268443710&scope=bot&client_id=465885551329804288`)
+          .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=461405521899946000&permissions=8&scope=bot`)
           .setThumbnail(client.user.avatarURL)
           .setFooter(`- Requested By: ${message.author.tag}`,message.author.avatarURL);
           message.channel.send(mmmmEmbed)
@@ -807,7 +807,7 @@ aa.on("collect", r => {
  .setTitle(`Welcome To ${msg.guild.name}`)
           .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
   .setURL('https://discordapp.com/oauth2/authorize/?permissions=268443710&scope=bot&client_id=465885551329804288')
-.setDescription(`**:earth_americas:  General Commends**\n${prefix}**server - لعرض معلومات عن سيرفرك**\n${prefix}**roll - القرعة**\n${prefix}**ms7f - فتح المصحف**\n${prefix}**invites - لرؤية دعواتك**\n${prefix}**skin - رؤية سكنك بماين كرافت**\n$**avatar [user] - لعرض صورتك او صوره شخص**\n$**system-sar7 - لمعرفة نظام امر صراحة**\n$**tC - لانشاء رومات مؤقتة**\n$**user - معلومات عن حسابك**\n$**mb - معلومات عن الاعضاء**\n$**icon - لاظهار صورة سيرفرك**\n$**tr - لترجمة اي شي تقولة **\n$**cal - لتشغيل الألة الحاسبة**`)
+.setDescription(`**:earth_americas:  General Commends**\n${prefix}**server - لعرض معلومات عن سيرفرك**\n${prefix}**roll - القرعة**\n${prefix}**ms7f - فتح المصحف**\n${prefix}**invites - لرؤية دعواتك**\n${prefix}**skin - رؤية سكنك بماين كرافت**\n${prefix}**avatar [user] - لعرض صورتك او صوره شخص**\n${prefix}**system-sar7 - لمعرفة نظام امر صراحة**\n${prefix}**tC - لانشاء رومات مؤقتة**\n${prefix}**user - معلومات عن حسابك**\n${prefix}**mb - معلومات عن الاعضاء**\n${prefix}**icon - لاظهار صورة سيرفرك**\n${prefix}**tr - لترجمة اي شي تقولة **\n${prefix}**cal - لتشغيل الألة الحاسبة**`)
 
  .setTimestamp()
 	});
